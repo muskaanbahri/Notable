@@ -13,13 +13,16 @@ const Header = () => {
     return(
         <div className="container" id="parent">
             <div className="row" id="linkos">
-            <img src={Logo} id="logo"/>
-            <div  id ="button"><Linko id="butt" text={"Sign Up"} address={"ehe"}/></div>
-            <div id="darko">
-                <span>meow</span>
+                <img src={Logo} id="logo" alt="Notable"/>
+            <div  id ="button">
+                <Linko id="butt" text={"Sign Up"} address={"ehe"}/>
             </div>
-            
-            
+            <div id="darko">
+                <input type="checkbox" class="checkbox" id="checkbox"/>
+                    <label for="checkbox" class="checkbox-label">
+                        <span class="ball"></span>
+                    </label>
+            </div>
             </div>
         </div>
     );
