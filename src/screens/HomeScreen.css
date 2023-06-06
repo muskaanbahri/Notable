@@ -1,0 +1,14 @@
+.container{
+    margin:0;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    height: 100vh;
+}
+.menubar{
+    height: 100%;
+    display: flex;
+}

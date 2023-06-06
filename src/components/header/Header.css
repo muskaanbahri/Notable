@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Unbounded:wght@300&display=swap');
+
+#parent{
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    -webkit-box-shadow: 0px 5px 39px -33px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 39px -33px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 39px -33px rgba(0,0,0,0.75);
+}
+#linkos{
+    border:none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+#logo{
+    height: 50px;
+    margin-inline: 100px;
+}
+
+.links {
+    margin-inline: 50px;
+}
+
+#button{
+    background-color: #FF7EFF;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 13px;
+    margin-left: 50%;
+    font-family: 'Unbounded', cursive;
+}
+

@@ -1,0 +1,13 @@
+
+#menuparent{
+    
+    flex-direction: column;
+    height: 90%;
+    background-color: wheat;
+    flex-direction: column;
+}
+#menuitem{
+    flex-direction: column;
+    display: flex;
+}
+
